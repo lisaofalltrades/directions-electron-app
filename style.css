@@ -130,6 +130,10 @@ button:hover {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
+.left {
+  left: 0;
+  margin-left: 0;
+}
 .directions {
   line-height: 1.5;
 }

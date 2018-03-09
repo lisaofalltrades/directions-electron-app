@@ -47,9 +47,9 @@ var openNav = function(){
         $("#nav-btn").css("display", "none");
         $("#sideBar").css("display", "block");
         $("#sideBar").css("width", "fit-content");
-        $("body").css("margin-left", "400px");
+        $("body").css("margin-left", "250px");
         $("body").css("transition", ".4s");
-        $(".left").css("margin-left", "400px");
+        $(".left").css("margin-left", "275px");
         $(".left").css("transition", ".2s");
     });
 };

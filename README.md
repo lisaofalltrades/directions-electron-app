@@ -35,4 +35,4 @@ electron .
 ## Changelog
 
 ### 1.0 (03/09/2018)
-- First version of Electron Directions App Template reboot.
+- First version of Electron Directions App Template.

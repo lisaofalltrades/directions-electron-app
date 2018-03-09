@@ -1,0 +1,157 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #303030;
+}
+
+h1 {
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.nav-btn {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#nav-btn {
+    position: fixed;
+}
+
+.nav-contents {
+    height: 100%;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+    padding: 20px 15px;
+    list-style-type: none;
+}
+
+#close-link {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-contents a {
+    padding: 6px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #555555;
+    display: block;
+}
+.nav-contents a:hover {
+    color: #0070c9;
+    font-weight: bold;
+}
+
+.content, .how-to {
+    padding: 10px 50px 0px 50px;
+}
+
+button {
+    font-size: 20px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    display: inline-block;
+    background-color: #555
+}
+
+button a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+button:hover {
+    /* color: #333; */
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn-container, .arrows {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+.blue-font {
+    color: #0070C9;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.dev-note {
+    font-weight: bold;
+    color: red;
+}
+.contact-info {
+    list-style-type: none;
+}
+
+.image img {
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+  width: 400px;
+  height: 600px;
+}
+
+.arrows {
+  display: inline-block;
+}
+.arrow-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  width: auto;
+  padding: 16px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.right {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.directions {
+  line-height: 1.5;
+}
+.body-link, .blue-font {
+  color: #0070c9;
+}
+.center {
+  text-align: center;
+}
+.bold {
+  font-weight: bold;
+}
+.note {
+  color: #929292;
+  list-style-type: none;
+}
+.center {
+  text-align: center;
+}
+.footer {
+  font-size: 12px;
+}
+.list {
+  list-style-type: circle;
+}
